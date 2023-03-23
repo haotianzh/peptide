@@ -1,0 +1,44 @@
+loading receptor: ../3q0h-H.pdbqt
+loading ligand: model-H.pdbqt
+
+set box using ligand
+    Box center:    -8.345    -6.337    30.468
+    Box length:    27.000    34.500    45.000
+    Box size  :        72        92       120
+    padding   :     4.000
+    spacing   :     0.375
+
+identifying pockets using AutoSite ....
+    found 14 pocket(s)
+
+    pocket|  energy | # of |Rad. of | energy |   bns    | score  
+    number|         |points|gyration|per vol.|buriedness|v*b^2/rg
+    ------+---------+------+--------+--------+----------+---------
+        1   -152.98   307    7.84     -0.50      0.71      19.56
+        2    -23.62    33    1.74     -0.72      0.91      15.58
+        3    -24.27    44    2.01     -0.55      0.59       7.61
+        4    -20.03    42    2.33     -0.48      0.63       7.18
+        5    -14.62    23    1.67     -0.64      0.72       7.02
+        6    -12.07    22    1.64     -0.55      0.71       6.77
+        7    -18.71    38    2.02     -0.49      0.60       6.76
+        8    -10.82    20    1.42     -0.54      0.65       5.96
+        9     -8.49    16    1.34     -0.53      0.63       4.77
+       10     -7.08    13    1.28     -0.54      0.63       3.99
+       11     -9.74    22    1.59     -0.44      0.53       3.85
+       12     -6.20    14    1.33     -0.44      0.51       2.77
+       13     -8.87    17    1.50     -0.52      0.47       2.56
+       14     -5.50    10    1.17     -0.55      0.49       2.07
+    merging clusters ...
+done. got 621 fill Points, in 2.58 (sec)
+
+setting map types using: all to ['HS', 'Mg', 'HD', 'NA', 'Fe', 'Br', 'NS', 'A', 'C', 'Mn', 'G', 'F', 'I', 'H', 'J', 'N', 'Q', 'P', 'S', 'GA', 'Z', 'Zn', 'Cl', 'Ca', 'OA', 'SA', 'OS']
+
+computing maps for center=(-8.345 -6.337 30.468) size=(27.000 34.500 45.000) dims=(72 92 120) ...
+    621 points inside the box
+
+    maps computed in 2.45 (sec)
+Adding gradient to maps ...
+done adding gradient to maps 67.17 (sec)
+making target file model.trg ...done.
+    done. 77.40 (sec)
+
